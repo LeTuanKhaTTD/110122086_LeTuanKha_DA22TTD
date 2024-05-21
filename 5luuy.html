@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dừa Guppy</title>
+    <link rel="stylesheet" href="WGT.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="">
+    <header>
+        <div class="top-bar">
+            <img class="logo" src="logo1.png" alt="Dừa guppy Logo" >
+            <div class="top-bar1">
+                <input class="search-bar" id="search-bar" type="text" placeholder="Tìm kiếm">
+                <button type="submit" class="search-button" onclick="search()">Tìm Kiếm</button>
+              </div>
+              <ul id="search-results"></ul>
+            <div class="support">
+                <img src="phone.png" alt="Support">
+                <span><a class="navbar-brand text-black"  href="#lienhe">Hỗ Trợ Khách Hàng</a></span>
+            </div>
+            <div class="login">
+                <img src="user.png" alt="Login">
+                <span><a class="navbar-brand " href="DangNhap.html">Đăng Nhập</a></span>
+            </div>
+            <div class="cart">
+                <a style="color:black" href="#shopping-cart"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                  </svg></a>                          
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(38, 125, 87);">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color:white;" href="WEB GIỚI THIỆU.html">Trang chủ</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color:white;" aria-current="page" href="WEB GIỚI THIỆU.html">THÔNG TIN</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      LOẠI CÁ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="CNN.html">Cá nước ngọt</a></li>
+                      <li><a class="dropdown-item" href="CNM.html">Cá biển</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      BỂ CÁ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="TongHopBC.html">Bể cá mini</a></li>
+                      <li><a class="dropdown-item" href="TongHopBC1.html">Bể cá thủy sinh</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " style="color:white" aria-current="page" href="CTS.html">PHỤ KIỆN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="#lienhe" tabindex="-1">LIÊN HỆ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </nav>
+    </header>
+    <main>
+        <section class="main-content">
+            <h2>5 lưu ý quan trọng khi nuôi cá cảnh bạn nhất định phải biết</h2>
+            <article class="product">
+                <img src="image/BeCa/AQUA.png" alt="Drumfilter">
+                <div class="product-info">
+                    <h2>1. Chọn đúng loại bể cá</h2>
+                    <p>Trên thị trường hiện nay có rất nhiều loại bể với nhiều hình dáng và kích cỡ khác nhau như bể hình tròn, bể hình bầu dục, bể hình vuông, bể 50 lít, 100 lít,… Bạn cần chọn đúng loại bể để cá có không gian đủ rộng để bơi lội và sinh sản. Tùy thuộc vào kích thước của cá, số lượng cá nuôi và đặc tính của cá mà bạn chọn loại bể phù hợp. Chẳng hạn, đối với cá betta dài 5 – 8cm, khoảng 6 – 7 con, đặc tính hiếu chiến và bơi lội mạnh thì bạn chọn bể hình vuông thể tích 16 – 18 lít để cá bơi lội thỏa thích, không bị ngợp nhé.</p>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="image/PhuKien/ThayNuoc.jpg" alt="Drumfilter">
+                <div class="product-info">
+                    <h2>2. Thay nước định kỳ đúng cách</h2>
+                    <p>Việc thay nước đóng vai trò quan trọng thiết yếu để duy trì sự sống cho cá cảnh. Bởi lẽ nguồn nước dơ, ô nhiễm sẽ khiến cá bị mắc các bệnh ngoài da, ảnh hưởng hệ tiêu hóa. Trung bình bạn cần thay nước trong bể từ 1 – 2 lần/tuần và thay nước từng phần chứ không thay toàn bộ nước trong 1 lần vì cá dễ bị sốc. Nguồn nước cần được khử clo trước khi thay và tuyệt đối không di chuyển bể quá mạnh khi thay nước bạn nhé.                    </p>
+
+                </div>
+            </article>
+     
+            <article class="product">
+                <img src="image/PhuKien/NhietDo.jpg" alt="Drumfilter">
+                <div class="product-info">
+                    <h2>3. Đừng quên để ý đến các yếu tố bên ngoài</h2>
+                    <p>Mặc dù cá chỉ sống trong nước nhưng các yếu tố bên ngoài như nhiệt độ, độ ẩm, tiếng ồn và bụi bẩn trong không khí vẫn ảnh hưởng ít hoặc nhiều đến sự sống của cá. Vì thế, bạn cần đảm bảo các yếu tố này luôn được duy trì tốt để cá sống khỏe, lớn nhanh. Cụ thể:
+
+                        Nhiệt độ: 24 – 28 độ C
+                        Độ ẩm: 30 – 40 %
+                        Ánh sáng: duy trì chiếu ánh sáng vàng nhẹ cả ngày cho cá
+                        Bụi bẩn: tránh để bể cá ở những nơi nhiều khói bụi, có nắp che bụi cho bể cá
+                        Tiếng ồn: tránh nơi ồn ào</p>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="image/PhuKien/ThucAn1.jpg" alt="Drumfilter">
+                <div class="product-info">
+                    <h2>4. Thực phẩm cho cá kiểng</h2>
+                    <p>Khi nuôi cá cảnh thì thực phẩm là vấn đề khiến không ít bạn băn khoăn, không biết nên cho cá ăn thế nào, lượng ăn ra sao. ShopHeo xin giải đáp như sau:
+                        Tần suất cho cá ăn: Mỗi ngày bạn cho cá ăn 2 bữa vào buổi sáng và buổi chiều, có thể cho cá ăn thêm 1 – 2 bữa lỡ với các loại thức ăn nhẹ nếu cá gầy gò và thiếu chất.
+                        Lượng thức ăn: Bụng cá rất nhỏ nên bạn cho cá ăn khoảng 2 – 3g thức ăn (tương đương kích cỡ mắt cá) để tránh cá bị đầy bụng, khó tiêu nhé.
+                        Loại thực phẩm bổ dưỡng cho cá: Đối với cá kiểng, các món ăn như trùn chỉ, trùn huyết, ấu trùng tôm, cám inve,… đều là món khoái khẩu của chúng. Nếu muốn cá ăn ngon, bạn đừng bỏ qua các gợi ý này nhé.</p>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="image/PhuKien/Oxi.jpg" alt="Drumfilter">
+                <div class="product-info">
+                    <h2>5. Thêm máy bơm oxy nếu có điều kiện</h2>
+                    <p>Khi sống ở môi trường bể nhỏ, tách biệt với sông suối và biển, lượng oxy trong bể sẽ ít hơn và cá hô hấp khó hơn. Mặc dù đa số các giống cá kiểng có thể tự hô hấp bằng oxy hòa tan trong nước nhưng chúng sẽ dễ mệt và đuối. Vậy nên, nếu có điều kiện, bạn đừng ngại sắm ngay một chiếc máy bơm oxy để cá hô hấp tốt hơn, khỏe mạnh hơn mỗi ngày bạn nhé.</p>
+                </div>
+            </article>
+            
+        </section>
+        <aside>
+            <div class="recent-posts">
+                <h3>Các dòng cá cảnh </h3>
+                <ul>
+                    <li>
+                        <a href="#">Đèn led bể cá cảnh 11 chế độ Aquaplus Monster M10</a>
+                        <span>16/01/2024</span>
+                    </li>
+                    <li>
+                        <a href="#">Máy sục khí tích điện hồ cá koi Risse ACD-30B – 80B</a>
+                        <span>20/12/2023</span>
+                    </li>
+                    <li>
+                        <a href="#">Máy vệ sinh bể cá Baoyu BY-X20 – Baoyu BY-X25</a>
+                        <span>15/01/2024</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <section class="container content-section" id="shopping-cart">
+  
+        <h3 style="text-decoration: none;text-align: center; margin-bottom: 7%;">Giỏ Hàng</h3>
+       
+       <table class="table table-hover table-cart">
+        <thead>
+          <tr>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+          </tr>
+        </thead>
+        <tbody class="cart-items">
+          
+           
+        </tbody>
+      </table>
+      
+          <div class="cart-total"> 
+            <strong class="cart-total-title">Tổng cộng:</strong>
+            <span  class="cart-total-price" style="text-align: right;">0VND</span>
+          </div>
+       
+      
+          <div class="btn-purchase" style="margin-top: 5%;">
+            <button type="button"  class="btn btn-light btn-purchase " style="background-color: #45a049;color:white;"><i class="fa-solid fa-cart-shopping " style="margin-right: 6%;"></i>Thanh toán</button>
+          </div>
+      </section>
+    <footer class="bg-dark text-white pt-5 pb-4" id="lienhe">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Dừa Guppy</h5>
+                    <p>
+                        Phường 5<br>
+                        TP Trà Vinh<br>
+                        Email: letuankhang.07012004@gmail.com<br>
+                        Phone: 0979776630
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Thông Tin</h5>
+                    <p><a href="#" class="navbar-brand text-white">Home</a></p>
+                    <p><a href="#" class="navbar-brand text-white">Giỏ hàng</a></p>
+                    <p><a href="#" class="navbar-brand text-white">Đăng nhập</a></p>
+                    <p><a href="#" class="navbar-brand text-white">Hỏi đáp</a></p>
+                </div>
+                
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Theo dõi</h5>
+                    <a href="https://www.facebook.com/profile.php?id=100069856421215" target="_blank" class="btn btn-primary" role="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 comment-section">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Bình luận</h5>
+                    <form class="comment-form">
+                      <div class="form-group mb-3">
+                        <label for="comment-text" class="form-label">Bình Luận</label>
+                        <textarea class="form-control" id="comment-text" rows="3" placeholder="Hãy chia sẻ suy nghĩ của bạn..."></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary comment-submit">Gửi</button>
+                    </form>
+                  </div>
+
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-md-8 col-lg-8">
+                    <p class="text-center text-white">
+                        &copy; 2024 Dừa Guppy
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
