@@ -1,5 +1,4 @@
 /* Image Filter Section */
-
 const allFilterItems = document.querySelectorAll('.filter-item');
 const allFilterBtns = document.querySelectorAll('.filter-btn');
 

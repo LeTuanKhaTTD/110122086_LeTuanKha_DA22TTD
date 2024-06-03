@@ -16,7 +16,7 @@
               <div class="card" style="border-radius: 1rem;">
                 <div class="row g-0">
                   <div class="col-md-7 col-lg-5 d-none d-md-block">
-                    <img src="logo1.png"
+                    <img src="/image/logo/logo1.png"
                       alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem; width:100%;" />
                   </div>
                   <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -84,25 +84,18 @@
 
 <script>
     document.getElementById("loginForm").addEventListener("submit", function(event){
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); 
         
-        // Get email and password values
+
         var email = document.getElementById("email").value;
         var password = document.getElementById("password").value;
         
-        // Perform your authentication logic here
-        // For demonstration, I'll just log the values to the console
         console.log("Email:", email);
         console.log("Password:", password);
         
-        // You can replace the above console.log with your actual authentication code
-        // For example, you can make an AJAX request to your backend for authentication
-        
-        // After successful authentication, display the logged in section and hide the login section
         document.getElementById("loginSection").classList.add("d-none");
         document.getElementById("loggedInSection").classList.remove("d-none");
     });
 </script>
-
 </body>
 </html>
